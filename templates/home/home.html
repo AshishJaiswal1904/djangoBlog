@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+{% block homeActive %} active {% endblock homeActive %}
+
+{% block body %}
+<div class="container my-3">
+    <div class="card">
+        <div class="card-header">
+            BlogPost
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Welcome to the BlogPost</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="/blog" class="btn btn-primary">Go To Blog</a>
+        </div>
+    </div>
+</div>
+{%endblock body %}
